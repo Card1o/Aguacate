@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvoGrowth</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>??????</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="formulario1.html" class="nav-align">Formulario1</a></li>
+            <li><a href="dashboard.html" class="nav-align">Dashboard</a></li>
+        </ul>      
+    </nav>
+
+    <div class="layout-grid">
+        <main class="main-content">
+            <section class="calculadora">
+                <h2>Calcula los costos de tu predio</h2>
+                <form id="form_ahorro">
+                    <div class="form-group">
+                        <label for="consumo">Tamaño del terreno en hectareas: </label>
+                        <input type="number" id="consumo" name="consumo" min="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo-energia">Que tan humedo (lluvias) suele ser el lugar?:</label>
+                        <select id="tipo-energia" name="tipo-energia" required>
+                            <option value="mucho">Es muy humedo</option>
+                            <option value="medio">Suele haber humedad</option>
+                            <option value="poco">Es muy seco</option>
+                        </select>
+                    </div>
+                    <button type="button" id="calcular-btn">Calcular</button>
+                </form>
+            </section>
+
+            <!-- Contenedor para mostrar los resultados del cálculo -->
+            <section id="resultados" class="resultados hidden">
+                <h2>Resultados del Ahorro Energético</h2>
+                <div class="result-card">
+                    <p><strong>Ahorro Energético Estimado:</strong> <span id="ahorro-kwh"></span> kWh</p>
+                    <p><strong>Reducción en Emisiones de CO₂:</strong> <span id="ahorro-co2"></span> kg</p>
+                    <p><strong>Ahorro Económico Estimado:</strong> <span id="ahorro-usd"></span> USD</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti provident neque ullam enim ducimus perspiciatis architecto deserunt asperiores at fugit, ea laudantium? Voluptatum quas molestiae cum architecto quod dignissimos quaerat!</p>
+    </footer>
+
+    <script src="../js/formulario.js"></script>
+</body>
+
+</html>
