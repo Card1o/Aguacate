@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../img/fondo.PNG) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
 }
@@ -15,7 +11,8 @@ body{
 
 header h1{
     font-size: 40px;
-    background-color: #fff;
+    background-color: #4aa608;
+    color: #000;
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -23,8 +20,8 @@ header h1{
 
 nav{
     width: 100%;
-    background-color: #ffffffa6;
-    padding: 15px;
+    background-color: #4aa608c3;
+    padding: 20px;
     position: sticky;
     align-self: flex-start;
     top: 0;
@@ -52,8 +49,8 @@ main{
     padding: 20px;
 }
     #seccion1{
-        background-color: #000000d0;
-        color: #fff;
+        background-color: #000000c0;
+        color: #c6f3a5;
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -68,8 +65,8 @@ main{
             padding: 30px;
         }
     #seccion2{
-        background-color: #000000;
-        color: #fff;
+        background-color: #bc9752;
+        color: #000;
         text-align: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -85,8 +82,8 @@ main{
             max-height: 500px;
         }
     #seccion3{
-        background-color: #ffffff;
-        color: #000000;
+        background-color: #34742a;
+        color: #ffffff;
         text-align: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -161,5 +158,5 @@ footer{
     padding: 40px;
     width: 100%;
     background-color: #000;
-    color: #fff;
+    color: #4aa608;
 }

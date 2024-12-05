@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e6f7ff;
+    background-image: url(../img/fondo.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #333;
     margin: 0;
     padding: 0;
@@ -11,14 +14,14 @@ body {
 }
 
 .header {
-    background-color: #006bb3;
+    background-color: #6e5937;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 .navbar {
-    background-color: #005299;
+    background-color: #a68e52;
     padding: 15px;
     position: sticky;
     top: 0;
@@ -126,7 +129,7 @@ button#calcular-btn:hover {
 }
 
 .footer {
-    background-color: #006bb3;
+    background-color: #6e5937;
     color: white;
     text-align: center;
     padding: 10px;

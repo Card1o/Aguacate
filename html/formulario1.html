@@ -26,12 +26,12 @@
                 <h2>Calcula los costos de tu predio</h2>
                 <form id="form_ahorro">
                     <div class="form-group">
-                        <label for="consumo">Tamaño del terreno en hectareas: </label>
-                        <input type="number" id="consumo" name="consumo" min="0" required>
+                        <label for="hectareas">Tamaño del terreno en hectareas: </label>
+                        <input type="number" id="hectareas" name="hectareas" min="0" required>
                     </div>
                     <div class="form-group">
-                        <label for="tipo-energia">Que tan humedo (lluvias) suele ser el lugar?:</label>
-                        <select id="tipo-energia" name="tipo-energia" required>
+                        <label for="tipo-zona">Que tan humedo (lluvias) suele ser el lugar?:</label>
+                        <select id="tipo-zona" name="tipo-zona" required>
                             <option value="mucho">Es muy humedo</option>
                             <option value="medio">Suele haber humedad</option>
                             <option value="poco">Es muy seco</option>
@@ -43,11 +43,16 @@
 
             <!-- Contenedor para mostrar los resultados del cálculo -->
             <section id="resultados" class="resultados hidden">
-                <h2>Resultados del Ahorro Energético</h2>
+                <h2>Resultados de productividad</h2>
                 <div class="result-card">
-                    <p><strong>Ahorro Energético Estimado:</strong> <span id="ahorro-kwh"></span> kWh</p>
-                    <p><strong>Reducción en Emisiones de CO₂:</strong> <span id="ahorro-co2"></span> kg</p>
-                    <p><strong>Ahorro Económico Estimado:</strong> <span id="ahorro-usd"></span> USD</p>
+                    <p><strong>Consumo de agua estimado:</strong> <span id="consumo-agua"></span> Lit</p>
+                    <p><strong>Consumo energetico estimado:</strong> <span id="consumo-elec"></span> Kwh</p>
+                    <p><strong>Cantidad de arboles aproximados:</strong> <span id="cant-arboles"></span></p>
+                    <p><strong>Arboles productivos:</strong> <span id="arboles-productivos"></span></p>
+                    <p><strong>Arboles improductivos:</strong> <span id="arboles-improductivos"></span></p>
+                    <p><strong>Arboles que depronto erradiques:</strong> <span id="arboles-erradicados"></span></p>
+                    <p><strong>Resiembra en el año:</strong> <span id="arboles-resembrados"></span></p>
+                    <p><strong>Cantidad de zocas posibles:</strong> <span id="zocas"></span></p>
                 </div>
             </section>
         </main>

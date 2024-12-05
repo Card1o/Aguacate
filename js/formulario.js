@@ -3,48 +3,63 @@ document.addEventListener("DOMContentLoaded", function() {
     /* Esta línea obtiene una referencia al botón de cálculo mediante su ID ('calcular-btn').
     para agregar un evento al botón y ejecutar la función de cálculo de ahorro*/
     const calcularBtn = document.getElementById("calcular-btn");
-    const consumoInput = document.getElementById("consumo");
-    const tipoEnergiaSelect = document.getElementById("tipo-energia");
+    const hectareasInput = document.getElementById("hectareas");
+    const tipoZonaSelect = document.getElementById("tipo-zona");
     const resultadosSection = document.getElementById("resultados");
-    const ahorroKwhSpan = document.getElementById("ahorro-kwh");
-    const ahorroCo2Span = document.getElementById("ahorro-co2");
-    const ahorroUsdSpan = document.getElementById("ahorro-usd");
+    const consumoAguaLit = document.getElementById("consumo-agua");
+    const consumoElecKwh = document.getElementById("consumo-elec");
+    const cantArboles = document.getElementById("cant-arboles");
+    const arbolesProductivos = document.getElementById("arboles-productivos");
+    const arbolesImproductivos = document.getElementById("arboles-improductivos");
+    const arbolesErradicados = document.getElementById("arboles-erradicados");
+    const arbolesResembrados = document.getElementById("arboles-resembrados");
+    const zocas = document.getElementById("zocas");
 
     
     calcularBtn.addEventListener("click", function() {
-        const consumo = parseFloat(consumoInput.value);
-        const tipoEnergia = tipoEnergiaSelect.value;
+        const consumo = parseFloat(hectareasInput.value);
+        const tipoZona = tipoZonaSelect.value;
 
         if (isNaN(consumo) || consumo <= 0) {
-            alert("Por favor, ingrese un consumo válido mayor a cero.");//alerta 
+            alert("Por favor, ingrese un numero de hectarea mayor a cero.");//alerta 
             return;
         }
 
-        // Factores de ahorro dependiendo del tipo de energía seleccionada
+        // Factores de ahorro del agua segun el tipo de zona
         let factorAhorro;
-        switch (tipoEnergia) {
+        switch (tipoZona) {
             case "mucho":
-                factorAhorro = 0.2; // 20% de ahorro energético
+                factorAhorro = 0.75; // 20% de ahorro energético
                 break;
             case "medio":
-                factorAhorro = 0.25; // 25% de ahorro energético
+                factorAhorro = 0.88; // 25% de ahorro energético
                 break;
             case "poco":
-                factorAhorro = 0.3; // 30% de ahorro energético
+                factorAhorro = 0.97; // 30% de ahorro energético
                 break;
             default:
                 factorAhorro = 0;
         }
 
         // Cálculos del ahorro
-        const ahorroEnergetico = consumo * factorAhorro;
-        const reduccionCo2 = ahorroEnergetico * 0.5; // Cada kWh de energía convencional genera 0.5 kg de CO₂
-        const ahorroEconomico = ahorroEnergetico * 0.15; // 0.15 USD por kWh de ahorro
+        const consumoAgua = 396.63 * factorAhorro * consumo
+        const consumoEnergia = 27.25 * consumo
+        const numArboles = 386 * consumo
+        const numArbolesProductivos = numArboles * 0.75
+        const numArbolesImproductivos = numArboles * 0.035
+        const numArbolesErradicados = numArboles * 0.002
+        const numArbolesResembrados = numArboles * 0.05
+        const numZocas = numArboles * 0.17
 
         // Mostrar los resultados
-        ahorroKwhSpan.textContent = ahorroEnergetico.toFixed(2);
-        ahorroCo2Span.textContent = reduccionCo2.toFixed(2);
-        ahorroUsdSpan.textContent = ahorroEconomico.toFixed(2);
+        consumoAguaLit.textContent = consumoAgua.toFixed(2);
+        consumoElecKwh.textContent = consumoEnergia.toFixed(2);
+        cantArboles.textContent = numArboles.toFixed(1);
+        arbolesProductivos.textContent = numArbolesProductivos.toFixed(1);
+        arbolesImproductivos.textContent = numArbolesImproductivos.toFixed(0);
+        arbolesErradicados.textContent = numArbolesErradicados.toFixed(1);
+        arbolesResembrados.textContent = numArbolesResembrados.toFixed(0);
+        zocas.textContent = numZocas.toFixed(0);
 
         resultadosSection.classList.remove("hidden");
     });
