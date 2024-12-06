@@ -1,0 +1,59 @@
+{
+"Hoja1":[
+ {
+  "No DE LOTE": 1,
+  "TOTAL ARBOLES": 1078,
+  "ZOCAS": 213
+ },
+ {
+  "No DE LOTE": 2,
+  "TOTAL ARBOLES": 1068,
+  "ZOCAS": 347
+ },
+ {
+  "No DE LOTE": 3,
+  "TOTAL ARBOLES": 971,
+  "ZOCAS": 137
+ },
+ {
+  "No DE LOTE": 4,
+  "TOTAL ARBOLES": 1128,
+  "ZOCAS": 96
+ },
+ {
+  "No DE LOTE": 5,
+  "TOTAL ARBOLES": 728,
+  "ZOCAS": 160
+ },
+ {
+  "No DE LOTE": 6,
+  "TOTAL ARBOLES": 674,
+  "ZOCAS": 126
+ },
+ {
+  "No DE LOTE": 7,
+  "TOTAL ARBOLES": 744,
+  "ZOCAS": 0
+ },
+ {
+  "No DE LOTE": 8,
+  "TOTAL ARBOLES": 867,
+  "ZOCAS": 143
+ },
+ {
+  "No DE LOTE": 9,
+  "TOTAL ARBOLES": 786,
+  "ZOCAS": 159
+ },
+ {
+  "No DE LOTE": 10,
+  "TOTAL ARBOLES": 1006,
+  "ZOCAS": 152
+ },
+ {
+  "No DE LOTE": 11,
+  "TOTAL ARBOLES": 775,
+  "ZOCAS": 160
+ }
+]
+}
