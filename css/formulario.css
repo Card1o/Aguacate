@@ -42,7 +42,7 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(186, 247, 143);
     font-weight: bold;
     transition: color 0.3s;
 }
