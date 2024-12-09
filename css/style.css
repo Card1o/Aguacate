@@ -59,10 +59,18 @@ main{
         flex-wrap: wrap;
         text-align: center;
     }
+        #seccion1 h1{
+            font-size: 50px;
+            margin: 0;
+        }
+        .titulo{
+            margin: 0px auto;
+            padding: 0;
+        }
         .interior-seccion1{
             min-width: 45%;
-            max-width: 48%;
-            margin: 5px;
+            max-width: 45%;
+            margin: 10px auto;
             border-radius: 10px;
             box-shadow: 0 0 8px 0 rgba(256, 256, 256, 0.4);
             padding: 30px;
@@ -76,9 +84,16 @@ main{
     }
         .contenido-seccion2{
             padding: 20px;
-            width: 80%;
+            width: 90%;
             margin: auto;
         }
+            .contenido-seccion2 h1{
+                margin-bottom: 30px;
+                font-size: 2em;
+            }
+            .contenido-seccion2 p{
+                font-size: large;
+            }
         #seccion2 img{
             width: 80%;
             margin: 10%;
@@ -93,9 +108,16 @@ main{
     }
         .contenido-seccion3{
             padding: 20px;
-            width: 80%;
+            width: 90%;
             margin: auto;
         }
+            .contenido-seccion3 h1{
+                margin-bottom: 30px;
+                font-size: 2em;
+            }
+            .contenido-seccion3 p{
+                font-size: large;
+            }
         #seccion3 img{
             width: 80%;
             margin: 10%;
