@@ -13,20 +13,24 @@
 </head>
 <body>
   <header>
-    <h1>Gráfico de Barras: Producción por Lote</h1>
+    <h1>Porcentaje de afectacion en plantas de plagas y/o Enfermedades</h1>
   </header>
   <nav class="navbar">
   
       <a href="../index.html">Inicio</a>
-      <a href="formulario1.html" class="nav-align">Calculadora</a>
-      <a href="plagas.html">Informacion de plagas</a>
+      <a href="formulario1.html">Calculadora</a>
+      <a href="arboles.html">Producción de arboles</a>
           
 </nav>
   <main>
     <div class="chart-container">
-      <canvas id="graficoBarrasLotes"></canvas>
+        <canvas id="graficoTortaPlagas" width="400" height="400"></canvas>
+    </div>
+    <div class="chart-container">
+        <canvas id="graficoAreaPlagas" width="800" height="400"></canvas>
     </div>
   </main>
-  <script src="../js/arboles.js"></script>
+  <script src="../js/plagas.js"></script>
+  <script src="../js/plagas2.js"></script>
 </body>
 </html>

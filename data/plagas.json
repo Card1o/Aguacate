@@ -1,0 +1,858 @@
+[
+[
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (54)",
+        "plantas afectadas": "12",
+        "%incidencia": "80%",
+        "": ""
+    },
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Monalonion (2)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (36)",
+        "plantas afectadas": "10",
+        "%incidencia": "67%",
+        "": ""
+    },
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Marceño (3)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Copturominus (7)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (9)",
+        "plantas afectadas": "7",
+        "%incidencia": "47%",
+        "": ""
+    },
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca ovario (8)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (166)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (2)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (huevo) (21)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "1",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (movil) (21)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (33)",
+        "plantas afectadas": "11",
+        "%incidencia": "73%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Monalonion (3)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (62)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Marceño (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Copturominus (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (25)",
+        "plantas afectadas": "9",
+        "%incidencia": "60%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca ovario (2)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (190)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (5)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (huevo) (115)",
+        "plantas afectadas": "5",
+        "%incidencia": "33%",
+        "": ""
+    },
+    {
+        "Lote": "2",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (movil) (115)",
+        "plantas afectadas": "5",
+        "%incidencia": "33%",
+        "": ""
+    },
+    {
+        "Lote": "3",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (65)",
+        "plantas afectadas": "11",
+        "%incidencia": "73%",
+        "": ""
+    },
+    {
+        "Lote": "3",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Monalonion (3)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "3",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (67)",
+        "plantas afectadas": "15",
+        "%incidencia": "100%",
+        "": ""
+    },
+    {
+        "Lote": "3",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Marceño (2)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "3",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (30)",
+        "plantas afectadas": "9",
+        "%incidencia": "60%",
+        "": ""
+    },
+    {
+        "Lote": "3",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca ovario (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "3",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (312)",
+        "plantas afectadas": "15",
+        "%incidencia": "100%",
+        "": ""
+    },
+    {
+        "Lote": "3",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (6)",
+        "plantas afectadas": "5",
+        "%incidencia": "33%",
+        "": ""
+    },
+    {
+        "Lote": "3",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (huevo) (30)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "3",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (movil) (30)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (53)",
+        "plantas afectadas": "13",
+        "%incidencia": "87%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Monalonion (4)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (77)",
+        "plantas afectadas": "13",
+        "%incidencia": "87%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Marceño (2)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (7)",
+        "plantas afectadas": "7",
+        "%incidencia": "47%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca ovario (7)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (412)",
+        "plantas afectadas": "15",
+        "%incidencia": "100%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (8)",
+        "plantas afectadas": "4",
+        "%incidencia": "27%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (huevo) (82)",
+        "plantas afectadas": "5",
+        "%incidencia": "33%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (movil) (82)",
+        "plantas afectadas": "5",
+        "%incidencia": "33%",
+        "": ""
+    },
+    {
+        "Lote": "4",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Stenoma (rama) (4)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "5",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (46)",
+        "plantas afectadas": "10",
+        "%incidencia": "67%",
+        "": ""
+    },
+    {
+        "Lote": "5",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Monalonion (2)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "5",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (50)",
+        "plantas afectadas": "13",
+        "%incidencia": "87%",
+        "": ""
+    },
+    {
+        "Lote": "5",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Marceño (3)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "5",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (13)",
+        "plantas afectadas": "8",
+        "%incidencia": "53%",
+        "": ""
+    },
+    {
+        "Lote": "5",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (357)",
+        "plantas afectadas": "15",
+        "%incidencia": "100%",
+        "": ""
+    },
+    {
+        "Lote": "5",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (4)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "5",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (huevo) (31)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "5",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (movil) (39)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "6",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (62)",
+        "plantas afectadas": "15",
+        "%incidencia": "100%",
+        "": ""
+    },
+    {
+        "Lote": "6",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Monalonion (5)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "6",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (58)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "6",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (4)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "6",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca ovario (5)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "6",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (301)",
+        "plantas afectadas": "15",
+        "%incidencia": "100%",
+        "": ""
+    },
+    {
+        "Lote": "6",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (2)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "6",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (huevo) (142)",
+        "plantas afectadas": "8",
+        "%incidencia": "53%",
+        "": ""
+    },
+    {
+        "Lote": "6",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (movil) (142)",
+        "plantas afectadas": "8",
+        "%incidencia": "53%",
+        "": ""
+    },
+    {
+        "Lote": "7",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (87)",
+        "plantas afectadas": "15",
+        "%incidencia": "100%",
+        "": ""
+    },
+    {
+        "Lote": "7",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Monalonion (3)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "7",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (171)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "7",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Marceño (4)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "7",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (23)",
+        "plantas afectadas": "8",
+        "%incidencia": "53%",
+        "": ""
+    },
+    {
+        "Lote": "7",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca ovario (8)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "7",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (234)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "7",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "7",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (huevo) (51)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "7",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (movil) (43)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (124)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Monalonion (2)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (48)",
+        "plantas afectadas": "10",
+        "%incidencia": "67%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Marceño (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (12)",
+        "plantas afectadas": "6",
+        "%incidencia": "40%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca ovario (5)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (347)",
+        "plantas afectadas": "13",
+        "%incidencia": "87%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (2)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (huevo) (253)",
+        "plantas afectadas": "10",
+        "%incidencia": "67%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (movil) (245)",
+        "plantas afectadas": "10",
+        "%incidencia": "67%",
+        "": ""
+    },
+    {
+        "Lote": "8",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Stenoma (rama) (7)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "9",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (29)",
+        "plantas afectadas": "6",
+        "%incidencia": "40%",
+        "": ""
+    },
+    {
+        "Lote": "9",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Monalonion (3)",
+        "plantas afectadas": "2",
+        "%incidencia": "13%",
+        "": ""
+    },
+    {
+        "Lote": "9",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (44)",
+        "plantas afectadas": "5",
+        "%incidencia": "33%",
+        "": ""
+    },
+    {
+        "Lote": "9",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Marceño (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "9",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "9",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca ovario (5)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "9",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (139)",
+        "plantas afectadas": "6",
+        "%incidencia": "40%",
+        "": ""
+    },
+    {
+        "Lote": "9",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "10",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (42)",
+        "plantas afectadas": "7",
+        "%incidencia": "47%",
+        "": ""
+    },
+    {
+        "Lote": "10",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (57)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "10",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Marceño (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "10",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (8)",
+        "plantas afectadas": "4",
+        "%incidencia": "27%",
+        "": ""
+    },
+    {
+        "Lote": "10",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca ovario (16)",
+        "plantas afectadas": "3",
+        "%incidencia": "20%",
+        "": ""
+    },
+    {
+        "Lote": "10",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (243)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "10",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "10",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (huevo) (115)",
+        "plantas afectadas": "4",
+        "%incidencia": "27%",
+        "": ""
+    },
+    {
+        "Lote": "10",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (movil) (115)",
+        "plantas afectadas": "4",
+        "%incidencia": "27%",
+        "": ""
+    },
+    {
+        "Lote": "11",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Thrips (51)",
+        "plantas afectadas": "12",
+        "%incidencia": "80%",
+        "": ""
+    },
+    {
+        "Lote": "11",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Monalonion (8)",
+        "plantas afectadas": "5",
+        "%incidencia": "33%",
+        "": ""
+    },
+    {
+        "Lote": "11",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Mosca blanca (69)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "11",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Compsus (11)",
+        "plantas afectadas": "4",
+        "%incidencia": "27%",
+        "": ""
+    },
+    {
+        "Lote": "11",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Escama (281)",
+        "plantas afectadas": "14",
+        "%incidencia": "93%",
+        "": ""
+    },
+    {
+        "Lote": "11",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Comedores de follaje (1)",
+        "plantas afectadas": "1",
+        "%incidencia": "7%",
+        "": ""
+    },
+    {
+        "Lote": "11",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (huevo) (85)",
+        "plantas afectadas": "5",
+        "%incidencia": "33%",
+        "": ""
+    },
+    {
+        "Lote": "11",
+        "Plantas": "15",
+        "plaga y/o enfermedad": "Ácaros (movil) (85)",
+        "plantas afectadas": "5",
+        "%incidencia": "33%",
+        "": ""
+    } ]
