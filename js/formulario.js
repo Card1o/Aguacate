@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     
-    /* Esta línea obtiene una referencia al botón de cálculo mediante su ID ('calcular-btn').
-    para agregar un evento al botón y ejecutar la función de cálculo de ahorro*/
+
     const calcularBtn = document.getElementById("calcular-btn");
     const hectareasInput = document.getElementById("hectareas");
     const tipoZonaSelect = document.getElementById("tipo-zona");
