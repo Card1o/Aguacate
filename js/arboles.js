@@ -1,5 +1,5 @@
-// Datos en formato JSON
-const data = {
+document.addEventListener("DOMContentLoaded", function () {
+  const data = {
     "siembra": [
       { "No DE LOTE": 1, "TOTAL ARBOLES": 1078, "ARBOLES PRODUCTIVOS": 673, "ÁRBOLES IMPRODUCTIVOS": 25, "ZOCAS": 213, "RESIEMBRAS": 47 },
       { "No DE LOTE": 2, "TOTAL ARBOLES": 1068, "ARBOLES PRODUCTIVOS": 541, "ÁRBOLES IMPRODUCTIVOS": 0, "ZOCAS": 347, "RESIEMBRAS": 49 },
@@ -14,45 +14,46 @@ const data = {
       { "No DE LOTE": 11, "TOTAL ARBOLES": 775, "ARBOLES PRODUCTIVOS": 593, "ÁRBOLES IMPRODUCTIVOS": 164, "ZOCAS": 160, "RESIEMBRAS": 14 }
     ]
   };
-  
-  // Inicializar el canvas
-  const canvas = document.getElementById('barChart');
-  const ctx = canvas.getContext('2d');
-  
-  // Configuración básica del gráfico
-  const chartWidth = canvas.width - 100;
-  const chartHeight = canvas.height - 100;
-  const barWidth = 40;
-  const gap = 20;
-  const labels = data.siembra.map(item => `Lote ${item["No DE LOTE"]}`);
-  const values = data.siembra.map(item => item["ARBOLES PRODUCTIVOS"]);
-  
-  // Dibujar ejes
-  ctx.beginPath();
-  ctx.moveTo(50, 50);
-  ctx.lineTo(50, chartHeight + 50);
-  ctx.lineTo(chartWidth + 50, chartHeight + 50);
-  ctx.stroke();
-  
-  // Dibujar barras
-  values.forEach((value, index) => {
-    const barHeight = (value / Math.max(...values)) * chartHeight;
-    const x = 50 + gap + index * (barWidth + gap);
-    const y = chartHeight + 50 - barHeight;
-  
-    ctx.fillStyle = '#4CAF50';
-    ctx.fillRect(x, y, barWidth, barHeight);
-  
-    // Etiquetas de valor
-    ctx.fillStyle = '#000';
-    ctx.textAlign = 'center';
-    ctx.fillText(value, x + barWidth / 2, y - 5);
+
+  const ctx = document.getElementById('graficoBarrasLotes').getContext('2d');
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: data.siembra.map(item => `Lote ${item["No DE LOTE"]}`),
+      datasets: [
+        {
+          label: 'Árboles Productivos',
+          data: data.siembra.map(item => item["ARBOLES PRODUCTIVOS"]),
+          backgroundColor: 'rgba(75, 192, 192, 0.6)',
+          borderColor: 'rgba(75, 192, 192, 1)',
+          borderWidth: 1
+        },
+        {
+          label: 'Árboles Improductivos',
+          data: data.siembra.map(item => item["ÁRBOLES IMPRODUCTIVOS"]),
+          backgroundColor: 'rgba(255, 99, 132, 0.6)',
+          borderColor: 'rgba(255, 99, 132, 1)',
+          borderWidth: 1
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Cantidad de Árboles'
+          }
+        },
+        x: {
+          title: {
+            display: true,
+            text: 'Lotes'
+          }
+        }
+      }
+    }
   });
-  
-  // Etiquetas de ejes
-  labels.forEach((label, index) => {
-    const x = 50 + gap + index * (barWidth + gap) + barWidth / 2;
-    ctx.textAlign = 'center';
-    ctx.fillText(label, x, chartHeight + 70);
-  });
-  
+});
