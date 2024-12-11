@@ -1,4 +1,25 @@
-*{
+/* Estilos globales */
+
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url('/img/raiz3.png');
+  
+    /* Full height */
+    height: 10%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +27,8 @@
     font-weight: 100;
     font-style: normal;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -14,204 +36,191 @@ body{
     box-sizing: border-box;
 }
 
-
-header {
-    font-size: 40px;
-    background-color: #c1fb97;
-    color: #000;
+/* Header fijo (sticky a fixed) */
+nav {
     width: 100%;
-    text-align: center;
+    background-color: rgb(171, 217, 46);
     padding: 20px;
-}
-    header img{
-        max-height: 300px;
-    }
-nav{
-    width: 100%;
-    background-color: #4aa608c3;
-    padding: 20px;
-    position: sticky;
-    align-self: flex-start;
+    position: fixed; /* Cambio a fixed para que se quede pegado al top */
     top: 0;
+    left: 0;
+    z-index: 1000; /* Para asegurarnos de que el header esté encima de otros elementos */
+    align-self: flex-start;
 }
-nav a{
-    font-size: 18px;
+
+nav a {
+    font-size: 20px;
     text-decoration: none;
     color: #000;
-    margin-right: 20px ;
+    margin-right: 20px;
+    font-weight: normal;
 }
-    .nav-align{
-        float: right;
-    }
-    nav a:hover{
-        font-size: larger;
-        font-weight: bolder;
-    }
-    
 
-main{
-    margin-top: 0;
+nav img {
+    display: inline-block;
+    width: 250px;
+    padding: 0 !important;
 }
-.contenido{
+
+.nav-align {
+    float: right;
+}
+
+nav a:hover {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.derecha {
+    margin-top: 55px;
+    float: right;
+    font-weight: bolder;
+}
+
+/* Ajuste del margen superior en main para que el contenido no se superponga al header */
+main {
+    margin-top: 80px; /* Ajustado para dejar espacio al header fijo */
+}
+
+.contenido {
     height: 600px;
     padding: 20px;
 }
-    #seccion1{
-        background-color: #000000c0;
-        color: #c6f3a5;
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-        #seccion1 h1{
-            font-size: 50px;
-            margin: 0;
-        }
-        .titulo{
-            margin: 0px auto;
-            padding: 0;
-        }
-        .interior-seccion1{
-            min-width: 45%;
-            max-width: 45%;
-            margin: 10px auto;
-            border-radius: 10px;
-            box-shadow: 0 0 8px 0 rgba(256, 256, 256, 0.4);
-            padding: 30px;
-        }
-    #seccion2{
-        background-color: #e20707;
-        color: #000;
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-        .contenido-seccion2{
-            padding: 20px;
-            width: 90%;
-            margin: auto;
-        }
-            .contenido-seccion2 h1{
-                margin-bottom: 30px;
-                font-size: 2em;
-            }
-            .contenido-seccion2 p{
-                font-size: large;
-            }
-        #seccion2 img{
-            width: 80%;
-            margin: 10%;
-            max-height: 500px;
-        }
-    #seccion3{
-        background-color: #34742a;
-        color: #ffffff;
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-        .contenido-seccion3{
-            padding: 20px;
-            width: 90%;
-            margin: auto;
-        }
-            .contenido-seccion3 h1{
-                margin-bottom: 30px;
-                font-size: 2em;
-            }
-            .contenido-seccion3 p{
-                font-size: large;
-            }
-        #seccion3 img{
-            width: 80%;
-            margin: 10%;
-            max-height: 500px;
-        }
-    #seccion4{
-        background-color: #000000a6;
-        color: #fff;
-        text-align: center;
-    }
-        #seccion4 h1{
-            margin: 20px;
-        }
-        .galeria-port{
-            margin: 100px auto;
-            width: 90%;
-            display: flex;
-            justify-content: space-evenly;/* hace de repartir los espacios en el contenido para llenarlo */
-            flex-wrap: wrap;/* Permite que se acomoden los divs a medida del tamaño */
-        }    
-        /* El div de las imagenes */
-        .imagen-port{
-            width: 22%;
-            min-width: 23%;
-            height: 200px;
-            margin-bottom: 15px;
-            overflow: hidden;
-            position: relative;
-            cursor: pointer;
-            box-shadow: 0 0 8px 6px rgba(256, 256, 256, 0.4) ;
-        }    
-    
-        .imagen-port img{
-            width: 100%;
-            height: 100%;
-            object-fit: fill;
-            display: block;
-        }
-    
-        .hover-galeria{
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            transform: scale(0);
-            background: #2c726695;
-            transition: transform 1s;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-            .hover-galeria img{
-             width: 50px;
-            }
-            .hover-galeria p{
-                color: #fff;
-            }
-            .imagen-port:hover .hover-galeria{
-                transform: scale(1);
-            }
 
-footer{
+/* Parallax en la sección */
+/* #seccion1, #seccion2, #seccion3, #seccion4 {
+    background-color: #ffffff;
+    color: #0d0d0d;
+} */
+
+#seccion1 {
+    min-height: 100vh; /* La sección ocupará al menos el 100% del viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    text-align: center;
+    background-image: url('img/raiz3.png'); /* Fondo para parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 0; /* Elimina espacios innecesarios */
+}
+
+#seccion1 img {
+    width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+    height: auto; /* Mantiene proporciones */
+    display: block; /* Elimina espacio blanco debajo de la imagen */
+}
+
+#seccion1 h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.titulo {
+    margin: 0px auto;
+    padding: 0;
+}
+
+/* Ajustes para otras secciones */
+#seccion2, #seccion3, #seccion4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: #ffffff; */
+    color: #0d0d0d;
+    background-image: url('img/raiz3.png'); /* Fondo para parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+#seccion1 h1, #seccion2 h1, #seccion3 h1, #seccion4 h1 {
+    margin: 20px;
+}
+
+/* Estilos de la galería */
+.galeria-port {
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port {
+    width: 22%;
+    min-width: 23%;
+    height: 200px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 8px 6px rgba(256, 256, 256, 0.4);
+}
+
+.imagen-port img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+}
+
+.hover-galeria {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: #ffffff;
+    transition: transform 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img {
+    width: 50px;
+}
+
+.hover-galeria p {
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria {
+    transform: scale(1);
+}
+
+footer {
     bottom: 0;
     padding: 40px;
     width: 100%;
-    background-color: #000;
-    color: #4aa608;
+    background-color: #ffffff;
+    color: #0d0d0d;
 }
-.form-container{
+
+.form-container {
     flex: 1;
     padding: 20px;
     max-width: 600px;
     margin: 20px auto;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-}   
-label{
+}
+
+label {
     display: flex;
     margin-top: 10px;
     font-weight: bold;
 }
 
-
 input[type="text"],
 input[type="email"],
 input[type="number"],
-select{
+select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -221,18 +230,18 @@ select{
     box-sizing: border-box;
 }
 
-input[type="radio"]{
+input[type="radio"] {
     margin-right: 5px;
 }
 
-label.radio-label{
+label.radio-label {
     display: inline-flex;
     align-items: center;
     margin-right: 20px;
 }
 
-button[type="submit"]{
-    background-color: #53064d;
+button[type="submit"] {
+    background-color: #3bb85b;
     color: black;
     border: none;
     padding: 15px 20px;
@@ -242,7 +251,7 @@ button[type="submit"]{
     border-radius: 8px;
 }
 
-button[type="submit"]:hover{
+button[type="submit"]:hover {
     background-color: #000;
     color: #fff;
 }
