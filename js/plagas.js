@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Datos del archivo JSON procesado
+
     const data = [
       { "plaga y/o enfermedad": "Thrips", "%incidencia": 80 },
       { "plaga y/o enfermedad": "Monalonion", "%incidencia": 7 },
